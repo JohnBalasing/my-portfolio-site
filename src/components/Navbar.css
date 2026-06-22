@@ -1,0 +1,137 @@
+/* nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #050203;
+}
+
+nav h1 {
+    color: #CBFF14;
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 10px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #CBFF14;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+nav ul a:hover {
+    border: 1px solid #CBFF14;
+    border-radius: 25px;
+}
+
+nav button {
+    border-radius: 25px;
+    background-color: #050203;
+    color: #CBFF14;
+}
+*/
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.nav_buttons button{
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+}
+
+.download{
+    background-color: #050203;
+    color: #CBFF14;
+}
+
+.download :hover {
+    border: 1px solid #CBFF14 !important;
+}
+
+.hire{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #CBFF14;
+    color: #000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #CBFF14;
+  font-size: 1.1rem;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  border: 1px solid #CBFF14;
+  border-radius: 25px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  nav {
+    padding: 20px 5%;
+  }
+
+  nav ul {
+    gap: 1rem;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  nav ul li a {
+    font-size: 0.95rem;
+  }
+}
