@@ -3,6 +3,7 @@ import './Home.css'
 import profileImage from '../assets/John_casual_chatgpt3.png'
 
 const Home = () => {
+
   return (
     <div className='hero__section'>
         <div className='hero_left'>

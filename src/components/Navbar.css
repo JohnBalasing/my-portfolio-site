@@ -80,11 +80,11 @@ nav {
     border: 1px solid #CBFF14 !important;
 }
 
-.hire{
+.nav_action{
     padding: 10px;
     border-radius: 25px;
-    background-color: #CBFF14;
-    color: #000;
+    color: #CBFF14;
+    background-color: #000;
 }
 
 nav ul {
